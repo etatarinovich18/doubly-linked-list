@@ -122,6 +122,32 @@ describe('LinkedList', () => {
 
             expect(list.at(2)).to.equal(4);
         });
+        // it('should delete the first by index', () => {
+        //     const list = new LinkedList();
+
+        //     list.append(1);
+        //     list.append(2);
+        //     list.append(3);
+        //     list.append(4);
+        //     list.append(5);
+
+        //     list.deleteAt(0);
+
+        //     expect(list.at(0)).to.equal(2);
+        // });
+        // it('should delete the last by index', () => {
+        //     const list = new LinkedList();
+
+        //     list.append(1);
+        //     list.append(2);
+        //     list.append(3);
+        //     list.append(4);
+        //     list.append(5);
+
+        //     list.deleteAt(4);
+
+        //     expect(list.at(3)).to.equal(4);
+        // });
     });
     describe('#reverse', () => {
         it('should reverse the list', () => {
